@@ -221,6 +221,11 @@ section,
   text-decoration: underline;
 }
 
+.header-logo {
+  width: 5rem;
+  height: 4rem;
+}
+
 /* //////////////////////
   Footer
   /////////////////////// */
