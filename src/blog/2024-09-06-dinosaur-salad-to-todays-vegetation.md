@@ -11,6 +11,7 @@ author: Dr Jenifer Cooling
 date: 2023-11-07T04:15:01.813Z
 tags:
   - post
+  - featured
 image: /assets/blog/article-7.png
 imageAlt: The Royal Geographical Society of Queensland Ltd hosting todays
   speaker from the University of Queensland
