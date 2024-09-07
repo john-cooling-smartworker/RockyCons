@@ -226,6 +226,12 @@ section,
   height: 112px;
 }
 
+.footer-logo {
+  width: 244px;
+  height: 112px;
+  justify-content: center;
+}
+
 /* //////////////////////
   Footer
   /////////////////////// */
