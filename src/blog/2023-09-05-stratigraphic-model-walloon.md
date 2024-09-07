@@ -3,7 +3,7 @@ title: Bayesian age stratigraphic model
 author: Jen Cooling et al
 date: 2023-09-05
 layout: article.njk
-tags: ["post"]
+tags: ["post" "featured"]
 image: /assets/blog/1-s2.0-S1342937X24001084-ga1.jpg
 imageAlt: Graphical abstract of zircon ages from Surat Basin
 description: New U-Pb zircon ages provide regional markers for the gas-bearing Walloon Coal Measures. New ages and palynology data place the formation in Callovian to Oxfordian. Tuffs are derived from a continental subduction zone in eastern Gondwana.
