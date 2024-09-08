@@ -239,6 +239,8 @@ section,
 
 .site-footer {
   --logo-color: currentColor;
+  --logo-width: 244px;
+  --logo-height: 112px;
   padding: 2em 0;
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
