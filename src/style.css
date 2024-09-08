@@ -222,13 +222,13 @@ section,
 }
 
 .header-logo {
-  width: 244px;
-  height: 112px;
+  width: 312px;
+  height: 168px;
 }
 
 .footer-logo {
-  width: 244px;
-  height: 112px;
+  width: 412px;
+  height: 256px;
   justify-content: center;
   align-items: center;
   text-align: center;
