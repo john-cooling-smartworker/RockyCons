@@ -8,7 +8,7 @@ layout: 'base.njk'
 <section class="hero">
   <div class="container flow">
       <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
+        <h1 class="section-title">Welcome to the palaeo blog!</h1>
         <p>I use this space to document my adventures in earth science. Sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
         <p>Experienced scientific researcher, consultant and speaker.
           Indepth focus on the specialist fields in geology of palynology, stratigraphy and sustainable environment  </p>
@@ -31,6 +31,18 @@ layout: 'base.njk'
     <ul role="list" class="articles__list flow"> 
         {%- for post in collections.featured | reverse-%}
           {%- include 'article-snippet.njk' -%}
+        {%- endfor -%}
+    </ul>
+  </div>
+</section> 
+
+<section id="featured-articles" class="featured-articles">
+  <div class="container flow">
+    <h2 class="section-title text-center ">Our featured people</h2>
+    <p class="text-center">Here is a sample of the people getting involved in our projects. Get a feel for the calibre and a good idea of what this site is all about.</p>
+    <ul role="list" class="articles__list flow"> 
+        {%- for profile in collections.active | reverse-%}
+          {%- include 'profile-snippet.njk' -%}
         {%- endfor -%}
     </ul>
   </div>

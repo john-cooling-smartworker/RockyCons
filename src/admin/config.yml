@@ -28,4 +28,25 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+    - name: "profile"
+       label: "Profile"
+       folder: "src/profile"
+       create: true
+       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+       editor:
+        preview: false
+      fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Profile Name", name: "profilename", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: "profile"  }
+      - { label: "Profile Photo", name: "photo", widget: "image" }
+      - { label: "Photo caption", name: "imageAlt", widget: "string" }
+      - {label: "Institution", name: "institution", widget: "string"}
+      - {label: " Qualification", name: "qualification", widget: "string"}
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
   
